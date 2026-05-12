@@ -10,7 +10,7 @@ jobs:
   draw:
     uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
     with:
-      keymap_patterns: "config/*.keymap" # 読み込むキーマップのパス
+      keymap_patterns: "config/LiNEA40.keymap" # 読み込むキーマップのパス
       config_path: "keymap_drawer.config.yaml" # 設定ファイル（任意）
       output_folder: "img" # 画像を保存するフォルダ名
       install_args: "keymap-drawer" # 必要に応じて追加のライブラリを指定
