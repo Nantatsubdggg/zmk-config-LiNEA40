@@ -3,14 +3,18 @@ on:
   workflow_dispatch: # 手動実行用
   push:
     paths:
-      - "config/*.keymap" # キーマップが変更された時に自動実行
-      - "config/*.json"
+      - "config/boards/shields/LiNEA40/LiNEA40.keymap" # キーマップが変更された時に自動実行
+      - "keymap_drawer.config.yaml"     
+      - "config/boards/shields/LiNEA40/LiNEA40.dtsi"
 
 jobs:
   draw:
-    uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
+    uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@f9cf9d3677368a7fb1dc505c51b8156fafa66fe2
     with:
-      keymap_patterns: "config/LiNEA40.keymap" # 読み込むキーマップのパス
+      commit_message: "[Draw] ${{ github.event.head_commit.message || 'Update keymap drawing' }}"
+      amend_commit: false
+      keymap_patterns: "config/boards/shields/LiNEA40/LiNEA40.keymap" # 読み込むキーマップのパス
+      json_path: "config/boards/shields/LiNEA40/LiNEA40.json"
       config_path: "keymap_drawer.config.yaml" # 設定ファイル（任意）
       output_folder: "img" # 画像を保存するフォルダ名
-      install_args: "keymap-drawer" # 必要に応じて追加のライブラリを指定
+      destination: "both"
