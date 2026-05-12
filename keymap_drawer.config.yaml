@@ -1,0 +1,5 @@
+# keymap_drawer.config.yaml の例
+draw_config:
+  key_w: 60
+  key_h: 56
+  split_gap: 30
