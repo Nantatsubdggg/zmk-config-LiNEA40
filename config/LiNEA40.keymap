@@ -57,7 +57,7 @@
         layers = <SCROLL>;
         input-processors =
             <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
-            //スクロール方向を逆転,,,,,,
+            //スクロール方向を逆転,,,,,,,
             <&zip_xy_to_scroll_mapper>;
     };
 };
@@ -165,10 +165,10 @@
 
         CURSOR {
             bindings = <
-&trans    &kp LC(LG(LEFT_ARROW))  &kp UP_ARROW  &kp LC(LG(RIGHT_ARROW))  &trans                       &kp KP_MULTIPLY  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_PLUS
-&trans    &kp LEFT_ARROW          &kp DOWN      &kp RIGHT_ARROW          &trans                       &kp KP_SLASH     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_MINUS
-&kp HOME  &kp PAGE_DOWN           &kp END       &kp PAGE_UP              &trans                       &kp UNDER        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ENTER
-&trans    &trans                  &trans        &trans                   &trans  &trans    &kp ENTER  &kp NUMBER_0                   &kp DOT       &kp ENTER     &kp QUESTION
+&trans    &kp LG(LEFT_ARROW)  &kp UP_ARROW  &kp LG(RIGHT_ARROW)  &trans                       &kp KP_MULTIPLY  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_PLUS
+&trans    &kp LEFT_ARROW      &kp DOWN      &kp RIGHT_ARROW      &trans                       &kp KP_SLASH     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_MINUS
+&kp HOME  &kp PAGE_DOWN       &kp END       &kp PAGE_UP          &trans                       &kp UNDER        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ENTER
+&trans    &trans              &trans        &trans               &trans  &trans    &kp ENTER  &kp NUMBER_0                   &kp DOT       &kp ENTER     &kp QUESTION
             >;
         };
 
@@ -176,10 +176,10 @@
 
         FUNCTION {
             bindings = <
-&kp F1         &kp F2               &kp F3  &kp F4         &kp F5                             &kp F6      &kp F7  &kp F8  &kp F9              &kp F10
-&kp LS(LG(S))  &kp LA(PRINTSCREEN)  &trans  &kp LS(LC(T))  &kp LS(LC(TAB))                    &trans      &trans  &trans  &kp LS(LC(ESCAPE))  &kp F11
-&trans         &kp LEFT_WIN         &trans  &trans         &trans                             &kp C_MUTE  &trans  &trans  &trans              &kp F12
-&trans         &trans               &trans  &trans         &trans           &trans    &trans  &trans              &trans  &trans              &trans
+&kp F1         &kp F2               &kp F3  &kp F4         &kp F5                         &kp F6              &kp F7          &kp F8        &kp F9           &kp F10
+&kp LS(LG(S))  &kp LA(PRINTSCREEN)  &trans  &kp LS(LC(T))  &kp LG(TAB)                    &kp LS(LC(ESCAPE))  &trans          &kp UP_ARROW  &trans           &kp F11
+&trans         &kp LEFT_WIN         &trans  &trans         &trans                         &kp C_MUTE          &kp LEFT_ARROW  &kp DOWN      &kp RIGHT_ARROW  &kp F12
+&trans         &trans               &trans  &trans         &trans       &trans    &trans  &trans                              &trans        &trans           &trans
             >;
 
             sensor-bindings = <&mouse_scrl SCRL_DOWN SCRL_UP>;
@@ -189,10 +189,10 @@
 
         SCROLL {
             bindings = <
-&trans    &kp LC(LG(LEFT_ARROW))  &kp UP_ARROW  &kp LC(LG(RIGHT_ARROW))  &trans                    &kp KP_MULTIPLY  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_PLUS
-&trans    &kp LEFT_ARROW          &kp DOWN      &kp RIGHT_ARROW          &trans                    &kp KP_SLASH     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_MINUS
-&kp HOME  &kp PAGE_DOWN           &kp END       &kp PAGE_UP              &trans                    &kp UNDER        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ENTER
-&trans    &trans                  &trans        &trans                   &trans  &trans    &trans  &kp NUMBER_0                   &kp NUMBER_0  &kp DOT       &kp QUESTION
+&trans    &kp LG(LEFT_ARROW)  &kp UP_ARROW  &kp LG(RIGHT_ARROW)  &trans                    &kp KP_MULTIPLY  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_PLUS
+&trans    &kp LEFT_ARROW      &kp DOWN      &kp RIGHT_ARROW      &trans                    &kp KP_SLASH     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_MINUS
+&kp HOME  &kp PAGE_DOWN       &kp END       &kp PAGE_UP          &trans                    &kp UNDER        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ENTER
+&trans    &trans              &trans        &trans               &trans  &trans    &trans  &kp NUMBER_0                   &kp NUMBER_0  &kp DOT       &kp QUESTION
             >;
 
             sensor-bindings = <&inc_dec_kp DOWN_ARROW UP_ARROW>;
