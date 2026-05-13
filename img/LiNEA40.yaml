@@ -58,7 +58,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - PAGE UP
+  - {t: ▽, type: trans}
   - '&mkp MB1'
   - UP ARROW
   - '&mkp MB2'
@@ -68,7 +68,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - PAGE DOWN
+  - {t: ▽, type: trans}
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
@@ -181,7 +181,7 @@ layers:
   - F10
   - Sft+Gui+S
   - Alt+PRINTSCREEN
-  - {t: ▽, type: trans}
+  - Gui+P
   - Sft+Ctl+T
   - Gui+TAB
   - Sft+Ctl+ESCAPE
