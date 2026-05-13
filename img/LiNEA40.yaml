@@ -101,7 +101,7 @@ layers:
   - $
   - Sft+5
   - ^
-  - Sft+7
+  - '&quotation_double'
   - '*'
   - (
   - '-'
