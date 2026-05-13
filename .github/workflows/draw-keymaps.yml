@@ -13,8 +13,8 @@ jobs:
     with:
       commit_message: "[Draw] ${{ github.event.head_commit.message || 'Update keymap drawing' }}"
       amend_commit: false
-      keymap_patterns: "config/boards/shields/LiNEA40/LiNEA40.keymap" # 読み込むキーマップのパス
-      json_path: "config/boards/shields/LiNEA40/LiNEA40.json"
+      keymap_patterns: "config/*.keymap" # 読み込むキーマップのパス
+      json_path: "config"
       config_path: "keymap_drawer.config.yaml" # 設定ファイル（任意）
       output_folder: "img" # 画像を保存するフォルダ名
       destination: "both"
