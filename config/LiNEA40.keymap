@@ -57,7 +57,7 @@
         layers = <SCROLL>;
         input-processors =
             <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
-            //スクロール方向を逆転,,,,,,,,,,,
+            //スクロール方向を逆転,,,,,,,,,,,,
             <&zip_xy_to_scroll_mapper>;
     };
 };
@@ -121,6 +121,13 @@
 
             tap-ms = <20>;
         };
+
+        quotation_double: quotation_double {
+            compatible = "zmk,behavior-tap-dance";
+            label = "QUOTATION_DOUBLE";
+            #binding-cells = <0>;
+            bindings = <&kp LS(N7)>, <&kp LS(NUMBER_2)>;
+        };
     };
 
     keymap {
@@ -154,10 +161,10 @@
 
         MARK {
             bindings = <
-&kp NUMBER_1     &kp NUMBER_2      &kp NUMBER_3      &kp NUMBER_4       &kp N5                             &kp NUMBER_6   &kp N7            &kp N8         &kp N9                &kp N0
-&kp EXCLAMATION  &kp LS(NUMBER_2)  &kp HASH          &kp DOLLAR         &kp LS(N5)                         &kp CARET      &kp LS(N7)        &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp MINUS
-&kp PRINTSCREEN  &kp PIPE          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_HASH                    &kp SEMICOLON  &kp SINGLE_QUOTE  &kp LS(COMMA)  &kp LS(PERIOD)        &kp LS(SLASH)
-&trans           &trans            &trans            &trans             &trans           &trans    &trans  &trans                           &kp EQUAL      &kp LS(EQUAL)         &kp LS(INTERNATIONAL_1)
+&kp NUMBER_1     &kp NUMBER_2      &kp NUMBER_3      &kp NUMBER_4       &kp N5                             &kp NUMBER_6   &kp N7             &kp N8         &kp N9                &kp N0
+&kp EXCLAMATION  &kp LS(NUMBER_2)  &kp HASH          &kp DOLLAR         &kp LS(N5)                         &kp CARET      &quotation_double  &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp MINUS
+&kp PRINTSCREEN  &kp PIPE          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_HASH                    &kp SEMICOLON  &kp SINGLE_QUOTE   &kp LS(COMMA)  &kp LS(PERIOD)        &kp LS(SLASH)
+&trans           &trans            &trans            &trans             &trans           &trans    &trans  &trans                            &kp EQUAL      &kp LS(EQUAL)         &kp LS(INTERNATIONAL_1)
             >;
 
             sensor-bindings = <&re_kp C_VOLUME_DOWN C_VOLUME_UP>;
