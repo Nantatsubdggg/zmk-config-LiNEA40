@@ -2,8 +2,8 @@ name: Draw Keymaps
 on:
   workflow_dispatch: # 手動実行用
   push:
-    paths:
-      - "config/boards/shields/LiNEA40/LiNEA40.keymap" # キーマップが変更された時に自動実行
+  paths:
+      - "config/*.keymap" # キーマップが変更された時に自動実行
       - "keymap_drawer.config.yaml"     
       - "config/boards/shields/LiNEA40/LiNEA40.dtsi"
 
