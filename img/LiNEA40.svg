@@ -351,8 +351,8 @@ path.combo {
 </g>
 <g class="combo combopos-7">
 <rect rx="6" ry="6" x="210" y="15" width="28" height="26" class="combo"/>
-<a href="#default">
-<text x="224" y="28" class="combo tap layer-activator">default</text>
+<a href="#iPad_default">
+<text x="224" y="28" class="combo tap layer-activator"><tspan style="font-size: 64%">iPad_defau…</tspan></text>
 </a><text x="224" y="39" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-8">
@@ -582,8 +582,8 @@ path.combo {
 </g>
 <g class="combo combopos-7">
 <rect rx="6" ry="6" x="210" y="15" width="28" height="26" class="combo"/>
-<a href="#default">
-<text x="224" y="28" class="combo tap layer-activator">default</text>
+<a href="#iPad_default">
+<text x="224" y="28" class="combo tap layer-activator"><tspan style="font-size: 64%">iPad_defau…</tspan></text>
 </a><text x="224" y="39" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-8">
@@ -806,8 +806,8 @@ path.combo {
 </g>
 <g class="combo combopos-7">
 <rect rx="6" ry="6" x="210" y="15" width="28" height="26" class="combo"/>
-<a href="#default">
-<text x="224" y="28" class="combo tap layer-activator">default</text>
+<a href="#iPad_default">
+<text x="224" y="28" class="combo tap layer-activator"><tspan style="font-size: 64%">iPad_defau…</tspan></text>
 </a><text x="224" y="39" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-8">
@@ -1050,8 +1050,8 @@ path.combo {
 </g>
 <g class="combo combopos-7">
 <rect rx="6" ry="6" x="210" y="15" width="28" height="26" class="combo"/>
-<a href="#default">
-<text x="224" y="28" class="combo tap layer-activator">default</text>
+<a href="#iPad_default">
+<text x="224" y="28" class="combo tap layer-activator"><tspan style="font-size: 64%">iPad_defau…</tspan></text>
 </a><text x="224" y="39" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-8">
@@ -1282,8 +1282,8 @@ path.combo {
 </g>
 <g class="combo combopos-7">
 <rect rx="6" ry="6" x="210" y="15" width="28" height="26" class="combo"/>
-<a href="#default">
-<text x="224" y="28" class="combo tap layer-activator">default</text>
+<a href="#iPad_default">
+<text x="224" y="28" class="combo tap layer-activator"><tspan style="font-size: 64%">iPad_defau…</tspan></text>
 </a><text x="224" y="39" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-8">
@@ -1527,8 +1527,8 @@ path.combo {
 </g>
 <g class="combo combopos-7">
 <rect rx="6" ry="6" x="210" y="15" width="28" height="26" class="combo"/>
-<a href="#default">
-<text x="224" y="28" class="combo tap layer-activator">default</text>
+<a href="#iPad_default">
+<text x="224" y="28" class="combo tap layer-activator"><tspan style="font-size: 64%">iPad_defau…</tspan></text>
 </a><text x="224" y="39" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-8">
@@ -1765,8 +1765,8 @@ path.combo {
 </g>
 <g class="combo combopos-7">
 <rect rx="6" ry="6" x="210" y="15" width="28" height="26" class="combo"/>
-<a href="#default">
-<text x="224" y="28" class="combo tap layer-activator">default</text>
+<a href="#iPad_default">
+<text x="224" y="28" class="combo tap layer-activator"><tspan style="font-size: 64%">iPad_defau…</tspan></text>
 </a><text x="224" y="39" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-8">
@@ -2002,8 +2002,8 @@ path.combo {
 </g>
 <g class="combo combopos-7">
 <rect rx="6" ry="6" x="210" y="15" width="28" height="26" class="combo"/>
-<a href="#default">
-<text x="224" y="28" class="combo tap layer-activator">default</text>
+<a href="#iPad_default">
+<text x="224" y="28" class="combo tap layer-activator"><tspan style="font-size: 64%">iPad_defau…</tspan></text>
 </a><text x="224" y="39" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-8">
