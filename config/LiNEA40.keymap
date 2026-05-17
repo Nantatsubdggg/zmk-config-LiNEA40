@@ -57,7 +57,7 @@
         layers = <SCROLL>;
         input-processors =
             <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
-            //スクロール方向を逆転,,,,,,,,,,,,,,,,
+            //スクロール方向を逆転,,,,,,,,,,,,,,,,,
             <&zip_xy_to_scroll_mapper>;
     };
 };
@@ -102,7 +102,7 @@
         };
 
         toiPadtest {
-            bindings = <&to 7>;
+            bindings = <&to 1>;
             key-positions = <3 4>;
         };
 
@@ -141,15 +141,24 @@
         default_layer {
             bindings = <
 &kp Q               &kp W         &kp E                   &kp R    &kp T                                                  &kp Y        &kp U  &kp I       &kp O                 &kp P
-&kp A               &kp S         &kp D                   &kp F    &kp G                                                  &kp H        &kp J  &kp K       &kp L                 &lt 5 MINUS
+&kp A               &kp S         &kp D                   &kp F    &kp G                                                  &kp H        &kp J  &kp K       &kp L                 &lt 6 MINUS
 &kp Z               &kp X         &kp C                   &kp V    &kp B                                                  &kp N        &kp M  &kp COMMA   &kp DOT               &mt RIGHT_SHIFT SLASH
-&mt LEFT_SHIFT TAB  &kp LEFT_ALT  &mt LEFT_CONTROL GRAVE  &kp INS  &lt 2 SPACE  &lt 3 INTERNATIONAL_5    &lt 5 BACKSPACE  &lt 4 ENTER         &lt 6 SEMI  &kp NON_US_BACKSLASH  &mt RIGHT_SHIFT LS(INTERNATIONAL_1)
+&mt LEFT_SHIFT TAB  &kp LEFT_ALT  &mt LEFT_CONTROL GRAVE  &kp INS  &lt 3 SPACE  &lt 4 INTERNATIONAL_5    &lt 6 BACKSPACE  &lt 5 ENTER         &lt 7 SEMI  &kp NON_US_BACKSLASH  &mt RIGHT_SHIFT LS(INTERNATIONAL_1)
             >;
 
             sensor-bindings = <&mouse_scrl SCRL_DOWN SCRL_UP>;
         };
 
-        //1
+        iPad_default {
+            bindings = <
+&kp Q               &kp W         &kp E               &kp R    &kp T                                       &kp Y        &kp U  &kp I       &kp O                 &kp P
+&kp A               &kp S         &kp D               &lt 2 F  &kp G                                       &kp H        &kp J  &kp K       &kp L                 &lt 6 MINUS
+&kp Z               &kp X         &kp C               &kp V    &kp B                                       &kp N        &kp M  &kp COMMA   &kp DOT               &mt RIGHT_SHIFT SLASH
+&mt LEFT_SHIFT TAB  &kp LEFT_ALT  &mt LEFT_GUI GLOBE  &kp INS  &lt 3 SPACE  &lt 4 INT2    &lt 6 BACKSPACE  &lt 5 ENTER         &lt 7 SEMI  &kp NON_US_BACKSLASH  &mt RIGHT_SHIFT LS(INTERNATIONAL_1)
+            >;
+
+            sensor-bindings = <&mouse_scrl SCRL_DOWN SCRL_UP>;
+        };
 
         MOUSE {
             bindings = <
@@ -162,8 +171,6 @@
             sensor-bindings = <&mouse_scrl SCRL_DOWN SCRL_UP>;
         };
 
-        //2
-
         MARK {
             bindings = <
 &kp NUMBER_1     &kp NUMBER_2      &kp NUMBER_3      &kp NUMBER_4       &kp N5                             &kp NUMBER_6   &kp N7             &kp N8         &kp N9                &kp N0
@@ -175,8 +182,6 @@
             sensor-bindings = <&re_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
-        //3
-
         CURSOR {
             bindings = <
 &trans    &kp LG(LEFT_ARROW)  &kp UP_ARROW  &kp LG(RIGHT_ARROW)  &trans                       &kp KP_MULTIPLY  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_PLUS
@@ -185,8 +190,6 @@
 &trans    &trans              &trans        &trans               &trans  &trans    &kp ENTER  &kp NUMBER_0                   &kp DOT       &kp ENTER     &kp QUESTION
             >;
         };
-
-        //4
 
         FUNCTION {
             bindings = <
@@ -199,8 +202,6 @@
             sensor-bindings = <&mouse_scrl SCRL_DOWN SCRL_UP>;
         };
 
-        //5
-
         SCROLL {
             bindings = <
 &trans    &kp LG(LEFT_ARROW)  &kp UP_ARROW  &kp LG(RIGHT_ARROW)  &trans                    &kp KP_MULTIPLY  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_PLUS
@@ -212,8 +213,6 @@
             sensor-bindings = <&inc_dec_kp DOWN_ARROW UP_ARROW>;
         };
 
-        //6
-
         WIRELESS {
             bindings = <
 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                         &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
@@ -223,17 +222,6 @@
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT_ARROW LEFT_ARROW>;
-        };
-
-        iPad_default {
-            bindings = <
-&kp Q               &kp W         &kp E               &kp R    &kp T                                       &kp Y        &kp U  &kp I       &kp O                 &kp P
-&kp A               &kp S         &kp D               &lt 1 F  &kp G                                       &kp H        &kp J  &kp K       &kp L                 &lt 5 MINUS
-&kp Z               &kp X         &kp C               &kp V    &kp B                                       &kp N        &kp M  &kp COMMA   &kp DOT               &mt RIGHT_SHIFT SLASH
-&mt LEFT_SHIFT TAB  &kp LEFT_ALT  &mt LEFT_GUI GLOBE  &kp INS  &lt 2 SPACE  &lt 3 INT2    &lt 5 BACKSPACE  &lt 4 ENTER         &lt 6 SEMI  &kp NON_US_BACKSLASH  &mt RIGHT_SHIFT LS(INTERNATIONAL_1)
-            >;
-
-            sensor-bindings = <&mouse_scrl SCRL_DOWN SCRL_UP>;
         };
     };
 };
