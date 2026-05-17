@@ -254,9 +254,9 @@ layers:
   - {t: ▽, type: trans}
   '5':
   - {t: ▽, type: trans}
-  - Gui+LEFT ARROW
+  - Ctl+Alt+LEFT
   - UP ARROW
-  - Gui+RIGHT ARROW
+  - Ctl+Alt+RIGHT
   - {t: ▽, type: trans}
   - KP MULTIPLY
   - '7'
@@ -327,7 +327,7 @@ layers:
   - BT CLR
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LCMD
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
