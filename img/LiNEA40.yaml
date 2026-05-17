@@ -42,6 +42,48 @@ layers:
   - {t: ;, h: '6'}
   - \
   - {t: Sft+INTERNATIONAL 1, h: RIGHT SHIFT}
+  iPad_default:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - A
+  - S
+  - D
+  - {t: F, h: '1'}
+  - G
+  - H
+  - J
+  - K
+  - L
+  - {t: '-', h: '5'}
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - {t: /, h: RIGHT SHIFT}
+  - {t: TAB, h: LEFT SHIFT}
+  - LEFT ALT
+  - {t: GLOBE, h: LEFT GUI}
+  - INS
+  - {t: SPACE, h: '2'}
+  - {t: INT2, h: '3'}
+  - {t: BACKSPACE, h: '5'}
+  - {t: ENTER, h: '4'}
+  - {t: ;, h: '6'}
+  - \
+  - {t: Sft+INTERNATIONAL 1, h: RIGHT SHIFT}
   '1':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -56,7 +98,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB1'
@@ -294,48 +336,6 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - BT CLR ALL
-  iPad_default:
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - A
-  - S
-  - D
-  - {t: F, h: '1'}
-  - G
-  - H
-  - J
-  - K
-  - L
-  - {t: '-', h: '5'}
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - ','
-  - .
-  - {t: /, h: RIGHT SHIFT}
-  - {t: TAB, h: LEFT SHIFT}
-  - LEFT ALT
-  - {t: GLOBE, h: LEFT GUI}
-  - INS
-  - {t: SPACE, h: '2'}
-  - {t: INT2, h: '3'}
-  - {t: BACKSPACE, h: '5'}
-  - {t: ENTER, h: '4'}
-  - {t: ;, h: '6'}
-  - \
-  - {t: Sft+INTERNATIONAL 1, h: RIGHT SHIFT}
 combos:
 - p: [11, 12]
   k: '`'
