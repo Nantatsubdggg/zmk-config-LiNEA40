@@ -254,9 +254,9 @@ layers:
   - {t: ▽, type: trans}
   '5':
   - {t: ▽, type: trans}
-  - Ctl+Alt+LEFT
+  - Ctl+Sft+GLOBE
   - UP ARROW
-  - Ctl+Alt+RIGHT
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - KP MULTIPLY
   - '7'
