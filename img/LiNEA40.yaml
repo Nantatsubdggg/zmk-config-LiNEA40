@@ -40,7 +40,7 @@ layers:
   - {t: BACKSPACE, h: '5'}
   - {t: ENTER, h: '4'}
   - {t: ;, h: '6'}
-  - \
+  - INTERNATIONAL 3
   - {t: Sft+INTERNATIONAL 1, h: RIGHT SHIFT}
   iPad_default:
   - Q
@@ -82,7 +82,7 @@ layers:
   - {t: BACKSPACE, h: '5'}
   - {t: ENTER, h: '4'}
   - {t: ;, h: '6'}
-  - \
+  - INT3
   - {t: Sft+INTERNATIONAL 1, h: RIGHT SHIFT}
   '1':
   - {t: ▽, type: trans}
@@ -102,7 +102,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB1'
-  - UP ARROW
+  - {t: ▽, type: trans}
   - '&mkp MB2'
   - Ctl+C
   - {t: ▽, type: trans}
@@ -111,9 +111,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT ARROW
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Ctl+V
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -148,7 +148,7 @@ layers:
   - (
   - '-'
   - PRINTSCREEN
-  - '|'
+  - Sft+INT3
   - '['
   - ']'
   - '#'
@@ -351,9 +351,9 @@ combos:
   k: '&mkp MB5'
 - p: [0, 1]
   k: ESCAPE
-- p: [3, 4]
+- p: [4, 14]
   k: {t: iPad_default, h: toggle}
-- p: [5, 6]
+- p: [5, 15]
   k: {t: default, h: toggle}
 - p: [1, 2]
   k: GLOBE
