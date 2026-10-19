@@ -57,7 +57,7 @@
         layers = <SCROLL>;
         input-processors =
             <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
-            //スクロール方向を逆転,,,,,,,,,,,,,,,,,,,,,,
+            //スクロール方向を逆転,,,,,,,,,,,,,,,,,,,,,,,
             <&zip_xy_to_scroll_mapper>;
     };
 };
@@ -163,10 +163,10 @@
 
         default_layer {
             bindings = <
-&kp Q               &kp W         &kp E                   &kp R    &kp T                                                  &kp Y        &kp U  &kp I       &kp O                &kp P
-&kp A               &kp S         &kp D                   &kp F    &kp G                                                  &kp H        &kp J  &kp K       &kp L                &lt 6 MINUS
-&kp Z               &kp X         &kp C                   &kp V    &kp B                                                  &kp N        &kp M  &kp COMMA   &kp DOT              &mt RIGHT_SHIFT SLASH
-&mt LEFT_SHIFT TAB  &kp LEFT_ALT  &mt LEFT_CONTROL GRAVE  &kp INS  &lt 3 SPACE  &lt 4 INTERNATIONAL_5    &lt 6 BACKSPACE  &lt 5 ENTER         &lt 7 SEMI  &kp INTERNATIONAL_3  &mt RIGHT_SHIFT LS(INTERNATIONAL_1)
+&kp Q               &kp W         &kp E                   &kp R         &kp T                                                  &kp Y        &kp U  &kp I       &kp O                &kp P
+&kp A               &kp S         &kp D                   &kp F         &kp G                                                  &kp H        &kp J  &kp K       &kp L                &lt 6 MINUS
+&kp Z               &kp X         &kp C                   &kp V         &kp B                                                  &kp N        &kp M  &kp COMMA   &kp DOT              &mt RIGHT_SHIFT SLASH
+&mt LEFT_SHIFT TAB  &kp LEFT_ALT  &mt LEFT_CONTROL GRAVE  &kp LEFT_WIN  &lt 3 SPACE  &lt 4 INTERNATIONAL_5    &lt 6 BACKSPACE  &lt 5 ENTER         &lt 7 SEMI  &kp INTERNATIONAL_3  &mt RIGHT_SHIFT LS(INTERNATIONAL_1)
             >;
 
             sensor-bindings = <&mouse_scrl SCRL_DOWN SCRL_UP>;
@@ -174,10 +174,10 @@
 
         iPad_default {
             bindings = <
-&kp Q               &kp W         &kp E               &kp R    &kp T                                        &kp Y        &kp U  &kp I       &kp O     &kp P
-&kp A               &kp S         &kp D               &kp F    &kp G                                        &kp H        &kp J  &kp K       &kp L     &lt 6 MINUS
-&kp Z               &kp X         &kp C               &kp V    &kp B                                        &kp N        &kp M  &kp COMMA   &kp DOT   &mt RIGHT_SHIFT SLASH
-&mt LEFT_SHIFT TAB  &kp LEFT_ALT  &mt LEFT_GUI LANG2  &kp INS  &lt 3 SPACE  &lt 4 LANG1    &lt 6 BACKSPACE  &lt 5 ENTER         &lt 7 SEMI  &kp INT3  &mt RIGHT_SHIFT LS(INTERNATIONAL_1)
+&kp Q               &kp W         &kp E               &kp R         &kp T                                        &kp Y        &kp U  &kp I       &kp O     &kp P
+&kp A               &kp S         &kp D               &kp F         &kp G                                        &kp H        &kp J  &kp K       &kp L     &lt 6 MINUS
+&kp Z               &kp X         &kp C               &kp V         &kp B                                        &kp N        &kp M  &kp COMMA   &kp DOT   &mt RIGHT_SHIFT SLASH
+&mt LEFT_SHIFT TAB  &kp LEFT_ALT  &mt LEFT_GUI LANG2  &kp LEFT_WIN  &lt 3 SPACE  &lt 4 LANG1    &lt 6 BACKSPACE  &lt 5 ENTER         &lt 7 SEMI  &kp INT3  &mt RIGHT_SHIFT LS(INTERNATIONAL_1)
             >;
 
             sensor-bindings = <&mouse_scrl SCRL_DOWN SCRL_UP>;
