@@ -34,7 +34,7 @@ layers:
   - {t: TAB, h: LEFT SHIFT}
   - LEFT ALT
   - {t: '`', h: LEFT CONTROL}
-  - INS
+  - LEFT WIN
   - {t: SPACE, h: '2'}
   - {t: INTERNATIONAL 5, h: '3'}
   - {t: BACKSPACE, h: '5'}
@@ -76,7 +76,7 @@ layers:
   - {t: TAB, h: LEFT SHIFT}
   - LEFT ALT
   - {t: LANG2, h: LEFT GUI}
-  - INS
+  - LEFT WIN
   - {t: SPACE, h: '2'}
   - {t: LANG1, h: '3'}
   - {t: BACKSPACE, h: '5'}
